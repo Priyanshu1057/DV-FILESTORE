@@ -29,7 +29,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://envs.sh/_Rp.png')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6725874739').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "doremonv7bot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Levi_ackerman_v7bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -40,7 +40,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "cloneerastore")
 
 # Database Information, mongodb 
-DB_URI = environ.get("DB_URI", "mongodb+srv://Priyanshu1057:IdBunts1r9Kj5BUo@cluster0.pbcadtj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://priyanshukumawat2023:2CS6rvGb5s4QIRCG@cluster0.qujep57.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 # Auto Delete Information
@@ -51,7 +51,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "10")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "600")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002840444641"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002031127227"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
